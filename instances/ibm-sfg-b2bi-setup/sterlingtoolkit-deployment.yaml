@@ -28,6 +28,8 @@ spec:
         - mountPath: /var/nfs-data/logs
           name: volume
           subPath: logs
+      securityContext:
+        runAsUser: 1010
       volumes:
       - name: volume
         persistentVolumeClaim:
