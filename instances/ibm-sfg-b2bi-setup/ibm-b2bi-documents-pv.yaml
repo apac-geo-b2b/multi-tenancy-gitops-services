@@ -13,5 +13,5 @@ spec:
   accessModes:
     - ReadWriteMany
   nfs:
-    server: fsf-syd0401j-fz.adn.networklayer.com
-    path: /IBM02SEV304026_2154/data01
+    server: nfssyd0101a-fz.service.softlayer.com
+    path: /IBM02SEV304026_2156/data01
