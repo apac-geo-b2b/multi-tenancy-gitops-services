@@ -10,4 +10,4 @@ spec:
   resources:
     requests:
       storage: 20Gi
-  storageClassName: ibmc-file-gold-gid
+  storageClassName: single-az-ibmc-file-gold
