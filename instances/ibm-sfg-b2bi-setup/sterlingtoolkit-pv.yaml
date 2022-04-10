@@ -6,6 +6,7 @@ metadata:
     failure-domain.beta.kubernetes.io/region: au-syd
     failure-domain.beta.kubernetes.io/zone: syd01
 spec:
+  storageClassName: "ibmc-file-gold"
   capacity:
     storage: 20Gi
   accessModes:
