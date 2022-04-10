@@ -29,7 +29,7 @@ spec:
           name: volume
           subPath: logs
       securityContext:
-        runAsUser: 1010
+        runAsUser: 0
       volumes:
       - name: volume
         persistentVolumeClaim:
